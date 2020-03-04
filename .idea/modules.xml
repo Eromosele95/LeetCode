@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EasyProblems/EasyProblems.iml" filepath="$PROJECT_DIR$/EasyProblems/EasyProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HardProblems/HardProblems.iml" filepath="$PROJECT_DIR$/HardProblems/HardProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LeetCode.iml" filepath="$PROJECT_DIR$/.idea/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MediumProblems/MediumProblems.iml" filepath="$PROJECT_DIR$/MediumProblems/MediumProblems.iml" />
+    </modules>
+  </component>
+</project>
