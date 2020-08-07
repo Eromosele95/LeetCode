@@ -2,13 +2,16 @@ import java.util.Arrays;
 
 
 /**
- * Longest Increasing Subs
+ * Longest Increasing Subsequence
+ *
+ *  Using a DP-Array to keep track of the length of the longest sequence
+ *  at each index and return the max value from the array
  */
 class Solution300 {
 
     public int lengthOfLIS(int[] nums) {
         int[] LIS_array = new int[nums.length];
-        Arrays.fill(LIS_array, 1);
+        Arrays.fill(LIS_array, 1); // Max length of single sequence
 
         for (int j = 1; j < nums.length; j++) {
             int i = 0; // Starting position for cursor
